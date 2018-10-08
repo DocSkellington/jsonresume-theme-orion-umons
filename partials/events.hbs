@@ -1,20 +1,16 @@
 {{#if resume.events}}
          <section class="section experiences-section">
              <h2 class="section-title"><i class="fa fa-briefcase"></i>Attended events</h2>
+            <ul  style="list-style-type:circle">
+            {{#each resume.events}}
+            <li>
+              <b>{{year}}</b>:
+              {{#each list}}
+              {{name}} ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#unless @last}}, {{/unless}}
+              {{/each}}.
+            </li>
+            {{/each}}
+            </ul>
 
-             {{#resume.events}}
-                 <div class="item">
-                     <div class="meta">
-                         <div class="upper-row">
-                             <h3 class="job-title">{{year}}</h3>
-                         </div><!--//upper-row-->
-                           {{#each list}}
-                           <li>{{name}} ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#unless @last}}, {{/unless}}
-                           </li>{{/each}}
-
-                     </div><!--//meta-->
-
-                 </div><!--//item-->
-             {{/resume.events}}
          </section><!--//section-->
 {{/if}}
