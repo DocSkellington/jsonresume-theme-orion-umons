@@ -4,13 +4,12 @@
             <ul  style="list-style-type:circle">
             {{#each resume.events}}
             <li>
-              <b>{{year}}</b>:
+              <b>{{date}}</b>:
               {{#each list}}
               {{name}} ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#unless @last}}, {{/unless}}
               {{/each}}.
             </li>
             {{/each}}
             </ul>
-
          </section><!--//section-->
 {{/if}}
