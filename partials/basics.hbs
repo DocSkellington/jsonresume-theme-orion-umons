@@ -11,6 +11,7 @@
             {{#if email}}<li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{email}}">{{email}}</a></li>{{/if}}
             {{#if phone}}<li class="phone"><i class="fa fa-phone"></i><a href="tel:{{phone}}">{{phone}}</a></li>{{/if}}
             {{#if url}}<li class="website"><i class="fa fa-globe"></i><a href="{{url}}" target="_blank">{{displayUrl url}}</a></li>{{/if}}
+            {{#if cv}}<li class="website"><i class="fa fa-user-circle-o"></i><a href="{{cv}}" target="_blank">{{displayUrl cv}}</a></li>{{/if}}
 
             {{#each profiles}}
                 <li class="{{toLowerCase network}}"><i class="fa fa-{{toLowerCase network}}"></i><a href="{{url}}" target="_blank">{{#if url}}{{displayUrl url}}{{else}}@{{username}}{{/if}}</a></li>
