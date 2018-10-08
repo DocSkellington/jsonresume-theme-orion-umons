@@ -2,6 +2,7 @@ var fs = require("fs");
 var path = require('path');
 var Handlebars = require("handlebars");
 var markdown = require('helper-markdown');
+var helpers = require('./lib/helpers')
 
 Handlebars.registerHelper('markdown', function() {
 	var markup = markdown().apply(this, arguments);
@@ -39,6 +40,8 @@ Handlebars.registerHelper('award', function(str) {
 			return str;
 	}
 });
+
+Handlebars.registerHelper(helpers)
 
 Handlebars.registerHelper('skillLevel', function(str) {
 	switch (str.toLowerCase()) {
@@ -127,5 +130,5 @@ function render(resume) {
 }
 
 module.exports = {
-	render: render
+	render: render,
 };
