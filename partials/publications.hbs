@@ -1,0 +1,16 @@
+{{#if resume.publications}}
+         <section class="section experiences-section">
+             <h2 class="section-title"><i class="fa fa-briefcase"></i>Publications</h2>
+
+            <ul  style="list-style-type:bullet">
+            {{#each resume.publications}}
+            <li>
+              <b>{{title}}</b>:
+              {{autors}} {{#if serie}}<i>{{serie}}</i>,{{/if}} {{#if publisher}}{{publisher}},{{/if}}{{#if pages}}{{pages}},{{/if}}{{#if year}}{{year}},{{/if}}{{#if url}}(<a href="{{url}}" target="_blank">{{#if comment}}{{comment}}{{/if}}</a>){{/if}}
+{{#unless @last}} {{/unless}}
+              .
+            </li>
+            {{/each}}
+            </ul>
+         </section><!--//section-->
+{{/if}}
