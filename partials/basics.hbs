@@ -10,7 +10,7 @@
         <ul class="list-unstyled contact-list">
             {{#if location}}
               <li class="location">
-                <a href="{{mapURL this}}" target="_blank" itemscope itemtype="http://schema.org/PostalAddress">
+                <a href="{{mapURL location}}" target="_blank" itemscope itemtype="http://schema.org/PostalAddress">
                   <i class="fa fa-location-arrow"></i>
                   <span class="info">
                     {{#if location.address}}<span itemprop="streetAddress">{{location.address}},</span>{{/if}}
