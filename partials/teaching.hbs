@@ -1,0 +1,21 @@
+{{#if resume.teaching}}
+    <section class="section experiences-section">
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i>Teaching</h2>
+
+        {{#resume.teaching}}
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">{{course}}</h3>
+                        <div class="time-strong">{{position}}</div>
+												<div class="company">{{students}}</div>
+												<div class="time-low">{{year startDate}} - {{year endDate}}</div>
+                    </div><!--//upper-row-->
+                </div><!--//meta-->
+                <div class="details">
+                      {{#markdown}}{{summary}}{{/markdown}}
+                </div><!--//details-->
+            </div><!--//item-->
+        {{/resume.teaching}}
+    </section><!--//section-->
+{{/if}}
