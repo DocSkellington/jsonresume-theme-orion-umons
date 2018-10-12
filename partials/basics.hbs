@@ -6,12 +6,12 @@
     </div><!--//profile-container-->
 
     <div class="contact-container container-block">
-      <head><h4>CONTACT</h4></head>
+      <head><h2 class="container-block-title">contact</h2></head>
         <ul class="list-unstyled contact-list">
             {{#if location}}
               <li class="location">
                 <a href="{{mapURL location}}" target="_blank" itemscope itemtype="http://schema.org/PostalAddress">
-                  <i class="fa fa-location-arrow"></i>
+                  <i class="fas fa-map-marker-alt"></i>
                   <span class="info">
                     {{#if location.address}}<span itemprop="streetAddress">{{location.address}},</span>{{/if}}
                     {{#if location.postalCode}}<span itemprop="postalCode">{{location.postalCode}},</span>{{/if}}
@@ -21,13 +21,13 @@
                 </a>
               </li>
             {{/if}}
-            {{#if email}}<li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{email}}">{{email}}</a></li>{{/if}}
-            {{#if phone}}<li class="phone"><i class="fa fa-phone"></i><a href="tel:{{phone}}">{{phone}}</a></li>{{/if}}
+            {{#if email}}<li class="email"><i class="fas fa-envelope"></i><a href="mailto:{{email}}">{{email}}</a></li>{{/if}}
+            {{#if phone}}<li class="phone"><i class="fas fa-phone"></i><a href="tel:{{phone}}">{{phone}}</a></li>{{/if}}
             {{#if url}}<li class="website"><i class="fa fa-globe"></i><a href="{{url}}" target="_blank">{{displayUrl url}}</a></li>{{/if}}
-            {{#if cv}}<li class="website"><i class="fa fa-user-circle-o"></i><a href="{{cv}}" target="_blank">Curriculum vitae</a></li>{{/if}}
+            {{#if cv}}<li class="website"><i class="fas fa-user-circle"></i><a href="{{cv}}" target="_blank">Curriculum vitae</a></li>{{/if}}
 
             {{#each profiles}}
-                <li class="{{toLowerCase network}}"><i class="fa fa-{{toLowerCase network}}"></i><a href="{{url}}" target="_blank">{{#if url}}{{displayUrl url}}{{else}}@{{username}}{{/if}}</a></li>
+                <li class="{{toLowerCase network}}"><i class="fab fa-{{toLowerCase network}}"></i>{{#markdown}}{{url}}{{/markdown}}</li>
             {{/each}}
             <!--                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>  -->
         </ul>
