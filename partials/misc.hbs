@@ -1,14 +1,13 @@
-{{#if resume.teaching}}
+{{#if resume.misc}}
     <section class="section experiences-section">
-        <h2 class="section-title"><i class="fas fa-graduation-cap"></i>Teaching</h2>
+        <h2 class="section-title"><i class="fas fa-briefcase"></i>Miscellaneous</h2>
 
-        {{#resume.teaching}}
+        {{#resume.misc}}
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
-                        <h3 class="job-title">{{course}}</h3>
-                        <div class="time-strong">{{position}}</div>
-												<div class="company">{{students}}</div>
+                        <h3 class="job-title">{{name}}</h3>
+												<div class="company">{{location}}</div>
                                                 <div class="time-low">{{startDate}} {{#if endDate}} - {{endDate}}{{/if}}</div>
 
                     </div><!--//upper-row-->
@@ -17,6 +16,6 @@
                       {{#markdown}}{{summary}}{{/markdown}}
                 </div><!--//details-->
             </div><!--//item-->
-        {{/resume.teaching}}
+        {{/resume.misc}}
     </section><!--//section-->
 {{/if}}
