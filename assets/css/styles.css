@@ -16,6 +16,7 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 h1,
 h2,
@@ -89,13 +90,13 @@ p {
 .sidebar-wrapper .contact-list .fas{
   margin-right: 5px;
   font-size: 18px;
-  vertical-align: middle;
+  vertical-align: text-top;
 }
 
 .sidebar-wrapper .fab{
   margin-right: 5px;
   font-size: 18px;
-  vertical-align: middle;
+  vertical-align: text-top;
 }
 
 .sidebar-wrapper .contact-list li {
@@ -184,6 +185,7 @@ p {
   font-size: 21px;
   position: relative;
   top: 0px;
+  vertical-align: text-bottom;
 }
 
 .main-wrapper .section-title .far{
@@ -197,6 +199,7 @@ p {
   font-size: 21px;
   position: relative;
   top: 0px;
+  vertical-align: text-bottom;
 }
 
 .main-wrapper .section {
@@ -252,13 +255,16 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
   color: #009789;
-}
+  }
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
+
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
@@ -326,3 +332,22 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+/* Added for row of logos */
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  height: : 100%;
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
