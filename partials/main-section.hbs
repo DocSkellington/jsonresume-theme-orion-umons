@@ -1,12 +1,17 @@
-<div class="row">
-		<div class="column">
-			<img src="resources/UMONS-rouge-quadri-avec-texteth.png" alt="" style="max-width:220px"/>
-		</div>
+{{#if resume.logos.length}}
+<section class='row'>
+  {{#each resume.logos}}
+  <div class='column' id='logos'>
+    <a href="{{website}}">
+      <div>
+        <img class="logos" src="{{path}}" alt="" itemprop="image" style="max-width:220px">
+      </div>
+    </a>
+  </div>
+  {{/each}}
+</section>
+{{/if}}
 
-		<div class="column">
-			<img src="resources/Sciencesvert-rouge.png" alt="" style="max-width:220px"/>
-		</div>
-</div>
 
 {{> summary}}
 
