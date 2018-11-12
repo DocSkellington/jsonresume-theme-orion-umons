@@ -6,16 +6,19 @@
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
-                        <h3 class="job-title">{{#markdown}}{{course}}{{/markdown}}</h3>
-                        <div class="time-strong">{{position}}</div>
-												<div class="company">{{students}}</div>
-                                                <div class="time-low">{{startDate}} {{#if endDate}} - {{endDate}}{{/if}}</div>
-
+                      <div class='column2' id='teaching'>
+                        <div>
+                          <h3 class="job-title">{{#markdown}}{{course}}{{/markdown}}</h3>
+                          <div class="time-strong"><small>{{position}}</small></div>
+                        </div>
+                        <div>
+                          <div class="company">{{students}}</div>
+                          <div class="time-low">{{startDate}} {{#if endDate}} - {{endDate}}{{/if}}</div>
+                        </div>
+                      </div>
                     </div><!--//upper-row-->
+                    <caption align="bottom">{{#markdown}}{{summary}}{{/markdown}}</caption>
                 </div><!--//meta-->
-                <div class="details">
-                      {{#markdown}}{{summary}}{{/markdown}}
-                </div><!--//details-->
             </div><!--//item-->
         {{/resume.teaching}}
     </section><!--//section-->

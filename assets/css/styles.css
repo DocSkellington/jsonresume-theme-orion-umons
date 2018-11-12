@@ -345,6 +345,12 @@ p {
 
 }
 
+.column2 {
+  float: left;
+  width: 50%;
+  height: : 100%;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
