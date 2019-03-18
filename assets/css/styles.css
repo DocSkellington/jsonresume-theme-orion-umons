@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Orbit - Responsive Resume/CV Template for Developers
  * Version: 1.0
  * Author: Xiaoying Riley
@@ -16,6 +16,7 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 h1,
 h2,
@@ -43,7 +44,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
+  background: #888A8D;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -52,7 +53,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: #888A8D;
   position: absolute;
   right: 0;
   width: 240px;
@@ -84,23 +85,29 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  height: 150px;
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list .fas{
   margin-right: 5px;
   font-size: 18px;
-  vertical-align: middle;
+  vertical-align: text-top;
 }
+
+.sidebar-wrapper .fab{
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: text-top;
+}
+
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .contact-list .email .fa {
-  font-size: 14px;
-}
 .sidebar-wrapper .container-block {
   padding: 30px;
+  padding-bottom: 10px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -126,7 +133,7 @@ p {
   margin-bottom: 0px;
   margin-top: 0;
 }
-.sidebar-wrapper .education-container .time {
+.sidebar-wrapper .education-container .time .time-low .time-strong{
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   margin-bottom: 0px;
@@ -162,32 +169,39 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
+  color: #009789;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title .fas{
   width: 30px;
   height: 30px;
   margin-right: 8px;
   display: inline-block;
-  color: #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background: #2d7788;
+  color: #009789;
   text-align: center;
   padding-top: 8px;
-  font-size: 16px;
+  font-size: 21px;
   position: relative;
-  top: -2px;
+  top: 0px;
+  vertical-align: text-bottom;
 }
+
+.main-wrapper .section-title .far{
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #009789;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 21px;
+  position: relative;
+  top: 0px;
+  vertical-align: text-bottom;
+}
+
 .main-wrapper .section {
   margin-bottom: 60px;
 }
@@ -212,8 +226,27 @@ p {
   top: 0;
   color: #97AAC3;
 }
+
+.main-wrapper .time-low {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  color: #97AAC3;
+}
+
+.main-wrapper .time-strong {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
 .main-wrapper .company {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   color: #97AAC3;
 }
 .main-wrapper .project-title {
@@ -221,13 +254,17 @@ p {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
-}
+  color: #009789;
+  }
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
+
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
@@ -259,6 +296,10 @@ p {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+
+  body {
+      padding: 0px;
+  }
   .sidebar-wrapper {
     position: static;
     width: inherit;
@@ -266,11 +307,12 @@ p {
   .main-wrapper {
     padding: 30px;
   }
-  .main-wrapper .time {
+  .main-wrapper .time .time-low .time-strong{
     position: static;
     display: block;
     margin-top: 5px;
   }
+
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
@@ -294,3 +336,28 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+/* Added for row of logos */
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  height: : 100%;
+
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  height: : 100%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,21 @@
+{{#if resume.misc}}
+    <section class="section experiences-section">
+        <h2 class="section-title"><i class="fas fa-briefcase"></i>Miscellaneous</h2>
+
+        {{#resume.misc}}
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">{{name}}</h3>
+												<div class="company">{{location}}</div>
+                                                <div class="time-low">{{startDate}} {{#if endDate}} - {{endDate}}{{/if}}</div>
+
+                    </div><!--//upper-row-->
+                </div><!--//meta-->
+                <div class="details">
+                      {{#markdown}}{{summary}}{{/markdown}}
+                </div><!--//details-->
+            </div><!--//item-->
+        {{/resume.misc}}
+    </section><!--//section-->
+{{/if}}

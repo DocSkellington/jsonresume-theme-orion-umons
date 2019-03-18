@@ -1,0 +1,15 @@
+{{#if resume.events}}
+         <section class="section experiences-section">
+             <h2 class="section-title"><i class="far fa-calendar-alt"></i>Attended events</h2>
+            <ul  style="list-style-type:disc">
+            {{#each resume.events}}
+            <li>
+              <b>{{date}}</b>:
+              {{#each list}}
+              {{name}} ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#if @last}}.{{else}}, {{/if}}
+              {{/each}}
+            </li>
+            {{/each}}
+            </ul>
+         </section><!--//section-->
+{{/if}}
