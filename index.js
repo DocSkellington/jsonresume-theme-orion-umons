@@ -41,6 +41,23 @@ Handlebars.registerHelper('award', function(str) {
 	}
 });
 
+Handlebars.registerHelper( "compare", function( v1, op, v2, options ) {
+
+  var c = {
+    "eq": function( v1, v2 ) {
+      return v1 == v2;
+    },
+    "neq": function( v1, v2 ) {
+      return v1 != v2;
+    },
+  }
+
+  if( Object.prototype.hasOwnProperty.call( c, op ) ) {
+    return c[ op ].call( this, v1, v2 ) ? options.fn( this ) : options.inverse( this );
+  }
+  return options.inverse( this );
+});
+
 Handlebars.registerHelper(helpers)
 
 Handlebars.registerHelper('skillLevel', function(str) {
