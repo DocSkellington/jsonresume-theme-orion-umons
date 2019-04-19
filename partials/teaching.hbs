@@ -10,15 +10,17 @@
                         <div>
                           <h3 class="job-title">{{#markdown}}{{course}}{{/markdown}}</h3>
                           <div class="time-strong"><small>{{position}}</small></div>
+                          <!--
                           {{#compare startDate "eq" endDate}}
                               <div class="time-low">{{startDate}}</div>
                           {{else}}
                               <div class="time-low">{{startDate}} {{#if endDate}} - {{endDate}}{{/if}}</div>
                           {{/compare}}
+                          -->
+                          <div class="company">{{students}}</div>
                         </div>
                       </div>
                     </div><!--//upper-row-->
-                    <div class="company">{{students}}</div>
                     <caption align="bottom">{{#markdown}}{{summary}}{{/markdown}}</caption>
                 </div><!--//meta-->
             </div><!--//item-->

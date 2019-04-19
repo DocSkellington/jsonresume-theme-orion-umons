@@ -236,6 +236,7 @@ p {
 
 .main-wrapper .time-strong {
   position: absolute;
+  float: right;
   right: 0;
   top: 0;
   color: #3F4650;
@@ -243,6 +244,12 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
 }
 
 .main-wrapper .company {
