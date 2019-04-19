@@ -6,7 +6,7 @@
             <li>
               <b>{{date}}</b>:
               {{#each list}}
-              {{name}} ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#if @last}}.{{else}}, {{/if}}
+              {{#markdown}}{{name}}{{/markdown}} ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#if @last}}.{{else}}, {{/if}}
               {{/each}}
             </li>
             {{/each}}
