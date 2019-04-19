@@ -240,16 +240,20 @@ p {
   right: 0;
   top: 0;
   color: #3F4650;
+  max-width: 50%;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
+  text-align: right;
+  /*
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-align-content: center;
   align-content: center;
+  */
 }
 
 .main-wrapper .company {
