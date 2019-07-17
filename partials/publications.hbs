@@ -6,9 +6,12 @@
             {{#each resume.publications}}
             <li>
               <b>{{title}}</b>:
-              {{autors}} {{#if serie}}, <i>{{serie}}</i>{{/if}}{{#if publisher}}, {{publisher}}{{/if}}{{#if pages}}, {{pages}}{{/if}}{{#if publish-year}}, {{publish-year}}{{/if}}{{#if url}} (<a href="{{url}}" target="_blank">{{#if comment}}{{comment}}{{/if}}</a>){{/if}}
-{{#unless @last}} {{/unless}}
-              .
+              {{autors}}
+              {{#if serie}}, <i>{{serie}}</i>{{/if}}
+              {{#if publisher}}, <i>{{publisher}}</i>{{/if}}
+              {{#if pages}}, {{pages}}{{/if}}
+              {{#if publish-year}}, {{publish-year}}{{/if}}
+              {{#if url}} (<a href="{{url}}" target="_blank">{{comment}}</a>){{/if}}.
             </li>
             {{/each}}
             </ul>
