@@ -1,0 +1,22 @@
+{{#if resume.events}}
+     <section class="section experiences-section">
+         <h2 class="section-title"><i class="fas fa-volume-up"></i>Talks</h2>
+        <ul  style="list-style-type:disc">
+        {{#each resume.events}}
+        {{#unless noslide}}
+        <li>
+          <b>{{date}}</b>:
+          <ul>
+          {{#each list}}
+          {{#ifCond slides '||' poster}}
+              <li>{{#markdown}}{{name}}{{/markdown}}
+              ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#if slides}} (<a href="resources/slides/{{slides}}">slides</a>){{/if}}{{#if poster}} (<a href="resources/poster/{{poster}}">poster</a>){{/if}}.</li>
+          {{/ifCond}}
+          {{/each}}
+          </ul>
+        </li>
+        {{/unless}}
+        {{/each}}
+        </ul>
+     </section><!--//section-->
+{{/if}}
