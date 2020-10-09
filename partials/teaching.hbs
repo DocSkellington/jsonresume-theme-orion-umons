@@ -9,7 +9,7 @@
                       <div class='column2' id='teaching'>
                         <div>
                           <h3 class="job-title">{{#markdown}}{{course}}{{/markdown}}</h3>
-                          <div class="time-strong"><small>{{position}}</small></div>
+                          <div class="position"><small>{{position}}</small></div>
                           <!--
                           {{#compare startDate "eq" endDate}}
                               <div class="time-low">{{startDate}}</div>
@@ -17,10 +17,11 @@
                               <div class="time-low">{{startDate}} {{#if endDate}} - {{endDate}}{{/if}}</div>
                           {{/compare}}
                           -->
-                          <div class="company">{{students}}</div>
+                          <div class="students">{{students}}</div>
                         </div>
                       </div>
                     </div><!--//upper-row-->
+                    <div class="time-low">{{date}}</div>
                     <caption align="bottom">{{#markdown}}{{summary}}{{/markdown}}</caption>
                 </div><!--//meta-->
             </div><!--//item-->

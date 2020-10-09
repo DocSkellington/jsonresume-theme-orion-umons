@@ -1,0 +1,120 @@
+{
+    "basics": {
+        "name": "Gaëtan Staquet",
+        "label": "PhD Student in Theoretical Computer Science",
+        "image": "resources/gaetan.png",
+        "phone": "+3265373217",
+        "email": "gaetan.staquet@umons.ac.be",
+        "summary": "I am a PhD student co-supervised by [Véronique Bruyère](http://informatique.umons.ac.be/perso/Bruyere.Veronique/) from the Computer Science department at the [University of Mons (UMONS)](https://web.umons.ac.be) and by [Guillermo A. Perez](https://www.uantwerpen.be/en/staff/guillermoalberto-perez/) from the Computer Science department at the [University of Antwerp (UAntwerpen)](https://www.uantwerpen.be/en/). My PhD Thesis started in October 2020 and is funded by the [F.R.S.-FNRS](https://www.frs-fnrs.be/en/). My research interests include\n * One-counter automata learning;\n * Formal verification, using automata.",
+        "location": {
+            "address": "Bâtiment De Vinci, Avenue Victor Maistriau, 15",
+            "postalCode": "7000",
+            "city": "Mons",
+            "region": "Belgium"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "DocSkellington",
+                "url": "https://github.com/DocSkellington"
+            }
+        ]
+    },
+    "logos": [
+        {
+            "website": "https://web.umons.ac.be",
+            "path": "resources/UMONS-EN-rvb.png"
+        },
+        {
+            "website": "https://www.uantwerpen.be/en/",
+            "path": "resources/uantwerpen.png"
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Mons and University of Antwerp",
+            "area": "Computer Science",
+            "studyType": "Joint PhD",
+            "startDate": "2020",
+            "endDate": "2024"
+        },
+        {
+            "institution": "University of Mons",
+            "area": "Computer Science",
+            "studyType": "MSc",
+            "startDate": "2018",
+            "endDate": "2020"
+        },
+        {
+            "institution": "University of Mons",
+            "area": "Computer Science",
+            "studyType": "BSc",
+            "startDate": "2015",
+            "endDate": "2018"
+        }
+    ],
+    "publications": [
+        {
+            "title": "Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting",
+            "authors": "Aziz Amezian El Khalfioui, Jonathan Joertz, Dorian Labeeuw, Gaëtan Staquet and Jef Wijsen",
+            "conference": "CIKM 2020",
+            "publish-year": "2020"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Master's Thesis",
+            "description": " * Title: _Efficient Learning of Automata and Automata with One Counter_.\n * Supervisor: [Véronique Bruyère](http://informatique.umons.ac.be/perso/Bruyere.Veronique/) (UMONS)."
+        },
+        {
+            "name": "LearningVCA",
+            "url": "https://github.com/DocSkellington/LearningVCA/",
+            "description": " * Implementation of an active automata learning algorithm dedicated to _visibly one-counter automata_.\n * [Original paper by Daniel Neider and Christof Löding, from 2010](http://ftp8.de.freebsd.org/pub/reports/2010/2010-02.pdf).\n * Done during my internship at UAntwerpen, under the supervision of Guillermo A. Perez."
+        }
+    ],
+    "teaching": [
+        {
+            "course": "Challenges in Artificial Intelligence",
+            "position": "Teaching assistant",
+            "students": "MSc Computer Science",
+            "summary": "Teaching assistant supervising the practical sessions.",
+            "date": "First semester of academic year 2020 - 2021"
+        },
+        {
+            "course": "Programming and Algorithms I",
+            "position": "Student teaching assistant",
+            "students": "BA1 Computer Science, BA1 Mathematics, and BA2 Physics",
+            "summary": "Student teaching assistant supervising the practical sessions (Python 3).",
+            "date": "First semester of academic years 2018 - 2019, and 2019 - 2020"
+        },
+        {
+            "course": "Programming and Algorithms II",
+            "position": "Student teaching assistant",
+            "students": "BA1 Computer Science, and BA1 Mathematics",
+            "summary": "Student teaching assistant supervising the practical sessions (Java 11).",
+            "date": "Second semester of academic years 2018 - 2019, and 2019 - 2020"
+        }
+    ],
+    "events": [
+        {
+            "date": "2020",
+            "list": [
+                {
+                    "name": "29th ACM Internal Conference Conference on Information and Knowledge Management (CIKM)",
+                    "link": "https://www.cikm2020.org/",
+                    "place": "Online"
+                },
+                {
+                    "name": "Highlights in Logic, Games, and Automata",
+                    "link": "http://highlights-conference.org/",
+                    "place": "Online"
+                },
+                {
+                    "name": "MOVEP Summer School",
+                    "link": "https://projects-verimag.imag.fr/movep2020/",
+                    "place": "Online"
+                }
+            ]
+        }
+    ]
+}

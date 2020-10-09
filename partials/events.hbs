@@ -4,15 +4,14 @@
             <ul  style="list-style-type:disc">
             {{#each resume.events}}
             <li>
-              <b>{{date}}</b>:
+              <b>{{date}}</b>
+              <ol>
               {{#each list}}
-              {{#if link}}
-                  <a href="{{link}}" target="_blank">{{#markdown}}{{name}}{{/markdown}}</a>
-              {{else}}
-                  {{#markdown}}{{name}}{{/markdown}} 
-              {{/if}}
-              ({{#if role}}{{role}}, {{/if}}<i>{{place}}</i>){{#if @last}}.{{else}}, {{/if}}
+                <li>
+                    <b><a href="{{link}}" target="_blank">{{#markdown}}{{name}}{{/markdown}}</a></b>, <i>{{place}}</i>.
+                </li>
               {{/each}}
+              </ol>
             </li>
             {{/each}}
             </ul>
