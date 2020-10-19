@@ -1,13 +1,16 @@
 {{#if resume.work}}
-    <section class="section experiences-section">
-        <h2 class="section-title"><i class="fa fa-briefcase"></i>Teaching</h2>
-
+     <section class="section experiences-section">
+        <h2 class="section-title"><i class="fas fa-briefcase"></i>Research experience</h2>
         {{#resume.work}}
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
                         <h3 class="job-title">{{position}}</h3>
-                        <div class="time">{{year startDate}} - {{year endDate}}</div>
+                        {{#if date}}
+                          <div class="time">{{monthYear date}}</div>
+                        {{else}}
+                          <div class="time">{{monthYear startDate}} - {{monthYear endDate}}</div>
+                        {{/if}}
                     </div><!--//upper-row-->
                     <div class="company">{{#if url}}<a href="{{url}}" target="_blank">{{/if}}{{name}}{{#if location}}, {{location}}{{/if}}{{#if url}}</a>{{/if}}</div>
                 </div><!--//meta-->

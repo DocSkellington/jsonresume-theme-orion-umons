@@ -22,6 +22,15 @@ Handlebars.registerHelper('toLowerCase', function(str) {
 	return str.toLowerCase();
 });
 
+Handlebars.registerHelper('monthYear', function(str) {
+	if (str) {
+		var d = new Date(str);
+		return d.toLocaleString("default", { month: "short", year: "numeric" });
+	} else {
+		return "Present"
+	}
+});
+
 Handlebars.registerHelper('year', function(str) {
 	if (str) {
 		var d = new Date(str);
@@ -87,6 +96,7 @@ function fixResume(resume) {
 	fixAllEntries(resume.volunteer);
 	fixAllEntries(resume.publications);
 	fixAllEntries(resume.projects);
+	fixAllEntries(resume.talks);
 
 	fixWork(resume.work);
 }
@@ -165,6 +175,19 @@ function render(resume) {
 
 	  Handlebars.registerPartial(name, template);
 	});
+
+	// We create an external events.html file
+	// var talksTpl = fs.readFileSync(__dirname + "/events.hbs", "utf-8");
+	// var talks = Handlebars.compile(talksTpl)({
+	// 	css: css,
+	// 	js: js,
+	// 	resume: resume
+	// });
+	// fs.writeFile(__dirname + "/public/events.html", talks, {
+	// 	flag: 'w'
+	// }, (err) => {
+	// 	if (err) throw err;
+	// });
 
 	return Handlebars.compile(tpl)({
 		css: css,

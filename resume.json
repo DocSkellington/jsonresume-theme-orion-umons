@@ -6,6 +6,7 @@
         "phone": "+3265373217",
         "email": "gaetan.staquet@umons.ac.be",
         "summary": "I am a PhD student co-supervised by [Véronique Bruyère](http://informatique.umons.ac.be/perso/Bruyere.Veronique/) from the Computer Science department at the [University of Mons (UMONS)](https://web.umons.ac.be) and by [Guillermo A. Perez](https://www.uantwerpen.be/en/staff/guillermoalberto-perez/) from the Computer Science department at the [University of Antwerp (UAntwerpen)](https://www.uantwerpen.be/en/). My PhD Thesis started in October 2020 and is funded by the [F.R.S.-FNRS](https://www.frs-fnrs.be/en/). My research interests include\n * One-counter automata learning;\n * Formal verification, using automata.",
+        "url": "informatique.umons.ac.be/staff/Staquet.Gaetan/",
         "location": {
             "address": "Bâtiment De Vinci, Avenue Victor Maistriau, 15",
             "postalCode": "7000",
@@ -30,27 +31,90 @@
             "path": "resources/uantwerpen.png"
         }
     ],
+    "languages": [
+        {
+            "language": "French",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "B1"
+        }
+    ],
+    "skills": {
+        "list": ["Modern C++", "LaTeX", "Java", "Python", "C", "Prolog", "Clingo ASP"]
+    },
     "education": [
         {
-            "institution": "University of Mons and University of Antwerp",
+            "institution": "UMONS and UAntwerpen",
+            "location": "Belgium",
             "area": "Computer Science",
             "studyType": "Joint PhD",
             "startDate": "2020",
             "endDate": "2024"
         },
         {
-            "institution": "University of Mons",
+            "institution": "UMONS",
+            "location": "Belgium",
             "area": "Computer Science",
             "studyType": "MSc",
             "startDate": "2018",
-            "endDate": "2020"
+            "endDate": "2020",
+            "honor": "Summa Cum Laude"
         },
         {
-            "institution": "University of Mons",
+            "cvIgnore": true,
+            "institution": "University of Montreal",
+            "location": "Canada",
+            "area": "Computer Science",
+            "studyType": "Exchange year",
+            "date": "2017"
+        },
+        {
+            "institution": "UMONS",
+            "location": "Belgium",
             "area": "Computer Science",
             "studyType": "BSc",
             "startDate": "2015",
-            "endDate": "2018"
+            "endDate": "2018",
+            "honor": "Magna Cum Laude",
+            "cvNote": "Exchange year at University of Montreal, Canada, in 2017."
+        }
+    ],
+    "work": [
+        {
+            "position": "PhD Thesis",
+            "company": "UMONS (University of Mons) and UAntwerpen (University of Antwerp)",
+            "location": "Belgium",
+            "startDate": "October 2020",
+            "summary": "Title: Improvement of the state of the art regarding the theory of learning algorithms for automata models extended with resources and its applications to black-box model-checking.\nSupervisors: Véronique Bruyère (UMONS) and Guillermo A. Perez (UAntwerpen).\nF.R.S.-FNRS Research Fellow.",
+            "cvSummary": "Title: Improvement of the state of the art regarding the theory of learning algorithms for automata models extended with resources and its applications to black-box model-checking.\\Supervisors: Véronique Bruyère (UMONS) and Guillermo A. Perez (UAntwerpen).\\F.R.S.-FNRS Research Fellow."
+        },
+        {
+            "position": "Master's Thesis",
+            "company": "UMONS",
+            "location": "Belgium",
+            "startDate": "December 2019",
+            "endDate": "June 2020",
+            "summary": "Title: Efficient Learning of Automata and Automata with One Counter.\nSupervisor: Véronique Bruyère (UMONS). Grade: 19/20.",
+            "cvSummary": "Title: Efficient Learning of Automata and Automata with One Counter.\\Supervisor: Véronique Bruyère (UMONS). Grade: 19/20."
+        },
+        {
+            "position": "Internship",
+            "company": "UAntwerpen",
+            "location": "Belgium",
+            "startDate": "September 2019",
+            "endDate": "December 2019",
+            "summary": "Implementation of an active learning algorithm for Visibly One-Counter Automata.\nSupervisor: Guillermo A. Perez.",
+            "cvSummary": "Implementation of an active learning algorithm for Visibly One-Counter Automata.\\Supervisor: Guillermo A. Perez."
+        },
+        {
+            "position": "Research internship",
+            "company":"UMONS",
+            "location": "Belgium",
+            "date": "August 2018",
+            "summary": "Subject: Efficient algorithms for Nash equilibrium computation.\nSupervisors: [Aline Goeminne](http://math.umons.ac.be/staff/Goeminne.Aline/), [Thomas Brihaye](http://math.umons.ac.be/maef/fr/tbrihaye.html), [Véronique Bruyère](http://informatique.umons.ac.be/staff/Bruyere.Veronique/), and [Hadrien Mélot](http://informatique.umons.ac.be/staff/Melot.Hadrien/).",
+            "cvSummary": "Subject: Efficient algorithms for Nash equilibrium computation.\\Supervisors: Aline Goeminne, Thomas Brihaye, Véronique Bruyère, Hadrien Mélot."
         }
     ],
     "publications": [
@@ -112,6 +176,19 @@
                 {
                     "name": "MOVEP Summer School",
                     "link": "https://projects-verimag.imag.fr/movep2020/",
+                    "place": "Online"
+                }
+            ]
+        }
+    ],
+    "talks": [
+        {
+            "date": "2020",
+            "list": [
+                {
+                    "talk": "Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting",
+                    "name": "29th ACM Internal Conference Conference on Information and Knowledge Management (CIKM)",
+                    "date": "22th October 2020",
                     "place": "Online"
                 }
             ]
