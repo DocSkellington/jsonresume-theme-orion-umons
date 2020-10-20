@@ -1,0 +1,803 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Gaëtan Staquet &sdot; PhD Student in Theoretical Computer Science</title>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Home page of Gaëtan Staquet">
+        <meta name="generator" content="https://www.npmjs.com/package/jsonresume-theme-orbit-original"/>
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <!-- Global CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+        <!-- Theme CSS -->
+        <style>
+                /*
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+a {
+  color: #2d7788;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4 ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a454f;
+}
+a:focus {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+.wrapper {
+  background: #888A8D;
+  max-width: 1050px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar-wrapper {
+  background: #888A8D;
+  position: absolute;
+  right: 0;
+  width: 290px;
+  height: 100%;
+  min-height: 850px;
+  color: #fff;
+}
+.sidebar-wrapper a {
+  color: #fff;
+}
+.sidebar-wrapper .profile-container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+.sidebar-wrapper .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sidebar-wrapper .profile {
+  margin-bottom: 15px;
+  height: 150px;
+}
+.sidebar-wrapper .contact-list .fas{
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: text-top;
+}
+
+.sidebar-wrapper .fab{
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: text-top;
+}
+
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .container-block {
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .education-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .education-container .time .time-low .time-strong{
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 60px;
+  padding-right: 350px;
+  min-height: 850px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #009789;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main-wrapper .section-title .fas{
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #009789;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 21px;
+  position: relative;
+  top: 0px;
+  vertical-align: text-bottom;
+}
+
+.main-wrapper .section-title .far{
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #009789;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 21px;
+  position: relative;
+  top: 0px;
+  vertical-align: text-bottom;
+}
+
+.main-wrapper .subsection-title {
+  font-size: 14pt;
+  color: #016e63;
+}
+
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+
+.main-wrapper .time-low {
+  color: #79889b;
+}
+
+.main-wrapper .time-strong {
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 0;
+  color: #3F4650;
+  max-width: 50%;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: right;
+  /*
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  */
+}
+
+.main-wrapper .position {
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 0;
+  color: #6d6f72;
+  max-width: 50%;
+  font-size: 18px;
+  height: auto;
+  text-align: right;
+}
+
+.main-wrapper .students {
+  margin-bottom: 0px;
+  color: #018a7c;
+}
+
+.main-wrapper .company {
+  margin-bottom: 0px;
+  color: #97AAC3;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #009789;
+  }
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
+.footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #545E6C;
+  font-size: 13px;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+
+  body {
+      padding: 0px;
+  }
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time .time-low .time-strong{
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+
+/* Added for row of logos */
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  height: 100%;
+
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+        </style>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+
+            <div class="profile-container">
+                <img class="profile" src="resources/gaetan.png" alt="" />
+                <h1 class="name">Gaëtan Staquet</h1>
+                <h3 class="tagline">PhD Student in Theoretical Computer Science</h3>
+            </div><!--//profile-container-->
+        
+            <div class="contact-container container-block">
+              <head><h2 class="container-block-title">contact</h2></head>
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto:gaetan.staquet@umons.ac.be">gaetan.staquet@umons.ac.be</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:+3265373217">+3265373217</a></li>
+                      <li class="location">
+                        <a href="https://www.openstreetmap.org/search?query=B%C3%A2timent%20De%20Vinci%2C%20Avenue%20Victor%20Maistriau%2C%2015%207000%20Mons%20Belgium%20" target="_blank" itemscope itemtype="http://schema.org/PostalAddress">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <span class="info">
+                            <span itemprop="streetAddress">Bâtiment De Vinci, Avenue Victor Maistriau, 15,</span>
+                            <span itemprop="postalCode">7000</span>
+                            <span itemprop="addressLocality">Mons,</span>
+                            <span itemprop="addressRegion">Belgium.</span>
+                          </span>
+                        </a>
+                      </li>
+                    <li class="website"><i class="fas fa-user-circle"></i><a href="resources/staquet_gaetan.pdf" target="_blank">Curriculum vitae</a></li>
+        
+                        <a class="github" href="https://github.com/DocSkellington" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                    <!--                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>  -->
+                </ul>
+            </div><!--//contact-container-->
+        
+        
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                    <div class="item">
+                        <h4 class="degree">Joint PhD in Computer Science</h4>
+                        <h5 class="meta">UMONS and UAntwerpen, Belgium</h5>
+                            <div class="time">2020 - 2024</div>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h4 class="degree">MSc in Computer Science</h4>
+                        <h5 class="meta">UMONS, Belgium</h5>
+                            <div class="time">2018 - 2020</div>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h4 class="degree">Exchange year in Computer Science</h4>
+                        <h5 class="meta">University of Montreal, Canada</h5>
+                            <div class="time">2017</div>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h4 class="degree">BSc in Computer Science</h4>
+                        <h5 class="meta">UMONS, Belgium</h5>
+                            <div class="time">2015 - 2018</div>
+                    </div><!--//item-->
+            </div><!--//education-container-->
+        
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                        <li>French <span class="lang-desc">(Native speaker)</span></li>
+                        <li>English <span class="lang-desc">(B2)</span></li>
+                </ul>
+            </div><!--//interests-->
+        
+
+        </div><!--//sidebar-wrapper-->
+
+        <div class="main-wrapper">
+
+        <section class='row'>
+          <div class='column' id='logos'>
+            <a href="https://web.umons.ac.be">
+              <div>
+                <img class="logos" src="resources/UMONS-EN-rvb.png" alt="" itemprop="image" style="max-width:90%">
+              </div>
+            </a>
+          </div>
+          <div class='column' id='logos'>
+            <a href="https://www.uantwerpen.be/en/">
+              <div>
+                <img class="logos" src="resources/uantwerpen.png" alt="" itemprop="image" style="max-width:90%">
+              </div>
+            </a>
+          </div>
+        </section>
+        
+        
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="far fa-comment-alt"></i>Summary</h2>
+                <div class="summary">
+                    <p align="justify" ><p>I am a PhD student co-supervised by <a href="http://informatique.umons.ac.be/perso/Bruyere.Veronique/">Véronique Bruyère</a> from the Computer Science department at the <a href="https://web.umons.ac.be">University of Mons (UMONS)</a> and by <a href="https://www.uantwerpen.be/en/staff/guillermoalberto-perez/">Guillermo A. Perez</a> from the Computer Science department at the <a href="https://www.uantwerpen.be/en/">University of Antwerp (UAntwerpen)</a>. My PhD Thesis started in October 2020 and is funded by the <a href="https://www.frs-fnrs.be/en/">F.R.S.-FNRS</a>. My research interests include</p>
+        <ul>
+        <li>One-counter automata learning;</li>
+        <li>Formal verification, using automata.</li>
+        </ul>
+        </p>
+                </div><!--//summary-->
+            </section><!--//section-->
+        
+             <section class="section experiences-section">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i>Research experience</h2>
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">PhD Thesis</h3>
+                                  <div class="time">Oct 2020 - Present</div>
+                            </div><!--//upper-row-->
+                            <div class="company">UMONS (University of Mons) and UAntwerpen (University of Antwerp), Belgium</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>Title: Improvement of the state of the art regarding the theory of learning algorithms for automata models extended with resources and its applications to black-box model-checking.<br>
+        Supervisors: <a href="http://informatique.umons.ac.be/perso/Bruyere.Veronique/">Véronique Bruyère</a> (UMONS) and <a href="https://www.uantwerpen.be/en/staff/guillermoalberto-perez/">Guillermo A. Perez</a> (UAntwerpen).<br>
+        <a href="https://www.frs-fnrs.be/en/">F.R.S.-FNRS</a> Research Fellow.</p>
+        
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Master&#x27;s Thesis</h3>
+                                  <div class="time">Dec 2019 - Jun 2020</div>
+                            </div><!--//upper-row-->
+                            <div class="company">UMONS, Belgium</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>Title: Efficient Learning of Automata and Automata with One Counter.<br>
+        Supervisor: <a href="http://informatique.umons.ac.be/perso/Bruyere.Veronique/">Véronique Bruyère</a> (UMONS). Grade: 19/20.</p>
+        
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Internship</h3>
+                                  <div class="time">Sep 2019 - Dec 2019</div>
+                            </div><!--//upper-row-->
+                            <div class="company">UAntwerpen, Belgium</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>Implementation of an active learning algorithm for Visibly One-Counter Automata.<br>
+        Supervisor: <a href="https://www.uantwerpen.be/en/staff/guillermoalberto-perez/">Guillermo A. Perez</a>.</p>
+        
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Research initiation internship</h3>
+                                  <div class="time">Aug 2018</div>
+                            </div><!--//upper-row-->
+                            <div class="company">UMONS, Belgium</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>Subject: Efficient algorithms for Nash equilibrium computation.<br>
+        Supervisors: <a href="http://math.umons.ac.be/staff/Goeminne.Aline/">Aline Goeminne</a>, <a href="http://math.umons.ac.be/maef/fr/tbrihaye.html">Thomas Brihaye</a>, <a href="http://informatique.umons.ac.be/staff/Bruyere.Veronique/">Véronique Bruyère</a>, and <a href="http://informatique.umons.ac.be/staff/Melot.Hadrien/">Hadrien Mélot</a>.</p>
+        
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+                <section class="section experiences-section">
+                    <h2 class="section-title"><i class="far fa-newspaper"></i>Publications</h2>
+                        <h3 class="subsection-title">Peer-reviewed conference proceedings</h3>
+                        <ul style="list-style-type:bullet;">
+                            <li>
+                                <b>Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting</b>: Aziz Amezian El Khalfioui, Jonathan Joertz, Dorian Labeeuw, Gaëtan Staquet and Jef Wijsen, <i>CIKM 2020</i>.
+                            </li>
+                        </ul>
+                 </section><!--//section-->
+        
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="far fa-lightbulb"></i>Projects</h2>
+                <!--                    <div class="intro">
+                                        <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                                    </div>--><!--//intro-->
+                    <div class="item">
+                        <span class="project-title">Master&#x27;s Thesis
+                        </span>
+                        <span class="project-tagline"><ul>
+        <li>Title: <em>Efficient Learning of Automata and Automata with One Counter</em>.</li>
+        <li>Supervisor: <a href="http://informatique.umons.ac.be/perso/Bruyere.Veronique/">Véronique Bruyère</a> (UMONS).</li>
+        </ul>
+        </span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title">LearningVCA
+                          <a href="https://github.com/DocSkellington/LearningVCA/" target="_blank"> [link] </a>
+                        </span>
+                        <span class="project-tagline"><ul>
+        <li>Implementation of an active automata learning algorithm dedicated to <em>visibly one-counter automata</em>.</li>
+        <li><a href="http://ftp8.de.freebsd.org/pub/reports/2010/2010-02.pdf">Original paper by Daniel Neider and Christof Löding, from 2010</a>.</li>
+        <li>Done during my internship at UAntwerpen, under the supervision of <a href="https://www.uantwerpen.be/en/staff/guillermoalberto-perez/">Guillermo A. Perez</a>.</li>
+        </ul>
+        </span>
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+        
+        
+             <section class="section experiences-section">
+                 <h2 class="section-title"><i class="fas fa-volume-up"></i>Talks</h2>
+                <ul  style="list-style-type:disc">
+                <li>
+                  <b>2020</b>:
+                  <ol>
+                      <li><i>Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting</i>, <a href="https://www.cikm2020.org/">29th ACM Internal Conference Conference on Information and Knowledge Management (CIKM)</a>, 22th October 2020,
+                      Online.</li>
+                  </ol>
+                </li>
+                </ul>
+             </section><!--//section-->
+        
+                 <section class="section experiences-section">
+                     <h2 class="section-title"><i class="far fa-calendar-alt"></i>Attended events</h2>
+                    <ul  style="list-style-type:disc">
+                    <li>
+                      <b>2020</b>
+                      <ol>
+                        <li>
+                            <b><a href="https://www.cikm2020.org/" target="_blank">29th ACM Internal Conference Conference on Information and Knowledge Management (CIKM)</a></b>, <i>Online</i>.
+                        </li>
+                        <li>
+                            <b><a href="http://highlights-conference.org/" target="_blank">Highlights in Logic, Games, and Automata</a></b>, <i>Online</i>.
+                        </li>
+                        <li>
+                            <b><a href="https://projects-verimag.imag.fr/movep2020/" target="_blank">MOVEP Summer School</a></b>, <i>Online</i>.
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <b>2019</b>
+                      <ol>
+                        <li>
+                            <b><a href="http://math.umons.ac.be/gamenet2019/" target="_blank">Workshop - Theory and Algorithms in Graph and Stochastic Games</a></b>, <i>UMONS, Belgium</i>.
+                        </li>
+                      </ol>
+                    </li>
+                    </ul>
+                 </section><!--//section-->
+        
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fas fa-graduation-cap"></i>Teaching</h2>
+        
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                              <div class='column2' id='teaching'>
+                                <div>
+                                  <h3 class="job-title">Challenges in Artificial Intelligence</h3>
+                                  <div class="position"><small>Teaching assistant</small></div>
+                                  <!--
+                                      <div class="time-low"></div>
+                                  -->
+                                  <div class="students">MSc Computer Science</div>
+                                </div>
+                              </div>
+                            </div><!--//upper-row-->
+                            <div class="time-low">First semester of academic year 2020 - 2021</div>
+                            <caption align="bottom">Teaching assistant supervising the practical sessions.</caption>
+                        </div><!--//meta-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                              <div class='column2' id='teaching'>
+                                <div>
+                                  <h3 class="job-title">Programming and Algorithms I</h3>
+                                  <div class="position"><small>Student teaching assistant</small></div>
+                                  <!--
+                                      <div class="time-low"></div>
+                                  -->
+                                  <div class="students">BA1 Computer Science, BA1 Mathematics, and BA2 Physics</div>
+                                </div>
+                              </div>
+                            </div><!--//upper-row-->
+                            <div class="time-low">First semester of academic years 2018 - 2019, and 2019 - 2020</div>
+                            <caption align="bottom">Student teaching assistant supervising the practical sessions (Python 3).</caption>
+                        </div><!--//meta-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                              <div class='column2' id='teaching'>
+                                <div>
+                                  <h3 class="job-title">Programming and Algorithms II</h3>
+                                  <div class="position"><small>Student teaching assistant</small></div>
+                                  <!--
+                                      <div class="time-low"></div>
+                                  -->
+                                  <div class="students">BA1 Computer Science, and BA1 Mathematics</div>
+                                </div>
+                              </div>
+                            </div><!--//upper-row-->
+                            <div class="time-low">Second semester of academic years 2018 - 2019, and 2019 - 2020</div>
+                            <caption align="bottom">Student teaching assistant supervising the practical sessions (Java 11).</caption>
+                        </div><!--//meta-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                              <div class='column2' id='teaching'>
+                                <div>
+                                  <h3 class="job-title">Programming and Algorithms I and II</h3>
+                                  <div class="position"><small>Student tutor</small></div>
+                                  <!--
+                                      <div class="time-low"></div>
+                                  -->
+                                  <div class="students">BA1 Computer Science, BA1 Mathematics, and BA2 Physics</div>
+                                </div>
+                              </div>
+                            </div><!--//upper-row-->
+                            <div class="time-low">August 2016</div>
+                            <caption align="bottom">Gave courses to students retaking an exam.</caption>
+                        </div><!--//meta-->
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i>Miscellaneous</h2>
+        
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Programming contests</h3>
+        												<div class="company"></div>
+                                                        <div class="time-low"> </div>
+                            </div><!--//upper-row-->
+                        </div><!--//meta-->
+                        <div class="details">
+                              I won the 454th place (out of 5558) in University CodeSprint, and my team won the 43d place in BAPC.
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+
+        </div><!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed
+              <!--with <i class="fa fa-heart"></i>-->
+              by
+              <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a>,
+              <a href='http://math.umons.ac.be/staff/Goeminne.Aline/'>Aline Goeminne</a>,
+              <a href='http://informatique.umons.ac.be/staff/Tamines.Clement/'>Clément Tamines</a> and
+              <a href='https://delgrange.me/'>Florent Delgrange</a>.</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script type="text/javascript">
+            jQuery(document).ready(function($) {
+
+
+    /*======= Skillset *=======*/
+    
+    
+    $('.level-bar-inner').css('width', '0');
+    
+    $('.level-bar-inner').each(function() {
+
+        var itemWidth = $(this).data('level');
+
+        $(this).animate({
+            width: itemWidth
+        }, 800);
+
+    });
+
+    
+
+});
+    </script>
+    </body>
+</html>

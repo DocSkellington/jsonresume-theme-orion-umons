@@ -203,6 +203,11 @@ p {
   vertical-align: text-bottom;
 }
 
+.main-wrapper .subsection-title {
+  font-size: 14pt;
+  color: #016e63;
+}
+
 .main-wrapper .section {
   margin-bottom: 60px;
 }

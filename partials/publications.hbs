@@ -1,13 +1,15 @@
 {{#if resume.publications}}
-         <section class="section experiences-section">
-             <h2 class="section-title"><i class="far fa-newspaper"></i>Publications</h2>
-
-            <ul  style="list-style-type:bullet">
-            {{#each resume.publications}}
-            <li>
-              <b>{{title}}</b>: {{authors}}{{#if conference}}, <i>{{conference}}</i>{{/if}}{{#if publisher}}, <i>{{publisher}}</i>{{/if}}{{#if pages}}, {{pages}}{{/if}}{{#if publish-year}}, {{publish-year}}{{/if}}{{#if url}} (<a href="{{url}}" target="_blank">{{comment}}</a>){{/if}}.
-            </li>
-            {{/each}}
-            </ul>
+        <section class="section experiences-section">
+            <h2 class="section-title"><i class="far fa-newspaper"></i>Publications</h2>
+            {{#if resume.publications.conferences}}
+                <h3 class="subsection-title">Peer-reviewed conference proceedings</h3>
+                <ul style="list-style-type:bullet;">
+                    {{#each resume.publications.conferences}}
+                    <li>
+                        <b>{{title}}</b>: {{authors}}{{#if conference}}, <i>{{conference}}</i>{{/if}}{{#if publisher}}, <i>{{publisher}}</i>{{/if}}{{#if pages}}, {{pages}}{{/if}}{{#if publish-year}}, {{publish-year}}{{/if}}{{#if url}} (<a href="{{url}}" target="_blank">{{comment}}</a>){{/if}}.
+                    </li>
+                    {{/each}}
+                </ul>
+            {{/if}}
          </section><!--//section-->
 {{/if}}

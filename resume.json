@@ -7,6 +7,7 @@
         "email": "gaetan.staquet@umons.ac.be",
         "summary": "I am a PhD student co-supervised by [Véronique Bruyère](http://informatique.umons.ac.be/perso/Bruyere.Veronique/) from the Computer Science department at the [University of Mons (UMONS)](https://web.umons.ac.be) and by [Guillermo A. Perez](https://www.uantwerpen.be/en/staff/guillermoalberto-perez/) from the Computer Science department at the [University of Antwerp (UAntwerpen)](https://www.uantwerpen.be/en/). My PhD Thesis started in October 2020 and is funded by the [F.R.S.-FNRS](https://www.frs-fnrs.be/en/). My research interests include\n * One-counter automata learning;\n * Formal verification, using automata.",
         "url": "informatique.umons.ac.be/staff/Staquet.Gaetan/",
+        "cv": "resources/staquet_gaetan.pdf",
         "location": {
             "address": "Bâtiment De Vinci, Avenue Victor Maistriau, 15",
             "postalCode": "7000",
@@ -38,7 +39,7 @@
         },
         {
             "language": "English",
-            "fluency": "B1"
+            "fluency": "B2"
         }
     ],
     "skills": {
@@ -87,8 +88,7 @@
             "company": "UMONS (University of Mons) and UAntwerpen (University of Antwerp)",
             "location": "Belgium",
             "startDate": "October 2020",
-            "summary": "Title: Improvement of the state of the art regarding the theory of learning algorithms for automata models extended with resources and its applications to black-box model-checking.\nSupervisors: Véronique Bruyère (UMONS) and Guillermo A. Perez (UAntwerpen).\nF.R.S.-FNRS Research Fellow.",
-            "cvSummary": "Title: Improvement of the state of the art regarding the theory of learning algorithms for automata models extended with resources and its applications to black-box model-checking.\\Supervisors: Véronique Bruyère (UMONS) and Guillermo A. Perez (UAntwerpen).\\F.R.S.-FNRS Research Fellow."
+            "summary": "Title: Improvement of the state of the art regarding the theory of learning algorithms for automata models extended with resources and its applications to black-box model-checking.\nSupervisors: [Véronique Bruyère](http://informatique.umons.ac.be/perso/Bruyere.Veronique/) (UMONS) and [Guillermo A. Perez](https://www.uantwerpen.be/en/staff/guillermoalberto-perez/) (UAntwerpen).\n[F.R.S.-FNRS](https://www.frs-fnrs.be/en/) Research Fellow."
         },
         {
             "position": "Master's Thesis",
@@ -96,8 +96,7 @@
             "location": "Belgium",
             "startDate": "December 2019",
             "endDate": "June 2020",
-            "summary": "Title: Efficient Learning of Automata and Automata with One Counter.\nSupervisor: Véronique Bruyère (UMONS). Grade: 19/20.",
-            "cvSummary": "Title: Efficient Learning of Automata and Automata with One Counter.\\Supervisor: Véronique Bruyère (UMONS). Grade: 19/20."
+            "summary": "Title: Efficient Learning of Automata and Automata with One Counter.\nSupervisor: [Véronique Bruyère](http://informatique.umons.ac.be/perso/Bruyere.Veronique/) (UMONS). Grade: 19/20."
         },
         {
             "position": "Internship",
@@ -105,26 +104,27 @@
             "location": "Belgium",
             "startDate": "September 2019",
             "endDate": "December 2019",
-            "summary": "Implementation of an active learning algorithm for Visibly One-Counter Automata.\nSupervisor: Guillermo A. Perez.",
-            "cvSummary": "Implementation of an active learning algorithm for Visibly One-Counter Automata.\\Supervisor: Guillermo A. Perez."
+            "summary": "Implementation of an active learning algorithm for Visibly One-Counter Automata.\nSupervisor: [Guillermo A. Perez](https://www.uantwerpen.be/en/staff/guillermoalberto-perez/)."
         },
         {
-            "position": "Research internship",
+            "position": "Research initiation internship",
             "company":"UMONS",
             "location": "Belgium",
             "date": "August 2018",
-            "summary": "Subject: Efficient algorithms for Nash equilibrium computation.\nSupervisors: [Aline Goeminne](http://math.umons.ac.be/staff/Goeminne.Aline/), [Thomas Brihaye](http://math.umons.ac.be/maef/fr/tbrihaye.html), [Véronique Bruyère](http://informatique.umons.ac.be/staff/Bruyere.Veronique/), and [Hadrien Mélot](http://informatique.umons.ac.be/staff/Melot.Hadrien/).",
-            "cvSummary": "Subject: Efficient algorithms for Nash equilibrium computation.\\Supervisors: Aline Goeminne, Thomas Brihaye, Véronique Bruyère, Hadrien Mélot."
+            "summary": "Subject: Efficient algorithms for Nash equilibrium computation.\nSupervisors: [Aline Goeminne](http://math.umons.ac.be/staff/Goeminne.Aline/), [Thomas Brihaye](http://math.umons.ac.be/maef/fr/tbrihaye.html), [Véronique Bruyère](http://informatique.umons.ac.be/staff/Bruyere.Veronique/), and [Hadrien Mélot](http://informatique.umons.ac.be/staff/Melot.Hadrien/)."
         }
     ],
-    "publications": [
-        {
-            "title": "Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting",
-            "authors": "Aziz Amezian El Khalfioui, Jonathan Joertz, Dorian Labeeuw, Gaëtan Staquet and Jef Wijsen",
-            "conference": "CIKM 2020",
-            "publish-year": "2020"
-        }
-    ],
+    "publications": {
+        "conferences": [
+            {
+                "title": "Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting",
+                "authors": "Aziz Amezian El Khalfioui, Jonathan Joertz, Dorian Labeeuw, Gaëtan Staquet and Jef Wijsen",
+                "conference": "CIKM 2020",
+                "pubYear": "2020",
+                "ref": "KJLSW20"
+            }
+        ]
+    },
     "projects": [
         {
             "name": "Master's Thesis",
@@ -133,7 +133,7 @@
         {
             "name": "LearningVCA",
             "url": "https://github.com/DocSkellington/LearningVCA/",
-            "description": " * Implementation of an active automata learning algorithm dedicated to _visibly one-counter automata_.\n * [Original paper by Daniel Neider and Christof Löding, from 2010](http://ftp8.de.freebsd.org/pub/reports/2010/2010-02.pdf).\n * Done during my internship at UAntwerpen, under the supervision of Guillermo A. Perez."
+            "description": " * Implementation of an active automata learning algorithm dedicated to _visibly one-counter automata_.\n * [Original paper by Daniel Neider and Christof Löding, from 2010](http://ftp8.de.freebsd.org/pub/reports/2010/2010-02.pdf).\n * Done during my internship at UAntwerpen, under the supervision of [Guillermo A. Perez](https://www.uantwerpen.be/en/staff/guillermoalberto-perez/)."
         }
     ],
     "teaching": [
@@ -141,6 +141,7 @@
             "course": "Challenges in Artificial Intelligence",
             "position": "Teaching assistant",
             "students": "MSc Computer Science",
+            "place": "UMONS",
             "summary": "Teaching assistant supervising the practical sessions.",
             "date": "First semester of academic year 2020 - 2021"
         },
@@ -148,6 +149,7 @@
             "course": "Programming and Algorithms I",
             "position": "Student teaching assistant",
             "students": "BA1 Computer Science, BA1 Mathematics, and BA2 Physics",
+            "place": "UMONS",
             "summary": "Student teaching assistant supervising the practical sessions (Python 3).",
             "date": "First semester of academic years 2018 - 2019, and 2019 - 2020"
         },
@@ -155,8 +157,17 @@
             "course": "Programming and Algorithms II",
             "position": "Student teaching assistant",
             "students": "BA1 Computer Science, and BA1 Mathematics",
+            "place": "UMONS",
             "summary": "Student teaching assistant supervising the practical sessions (Java 11).",
             "date": "Second semester of academic years 2018 - 2019, and 2019 - 2020"
+        },
+        {
+            "course": "Programming and Algorithms I and II",
+            "position": "Student tutor",
+            "students":"BA1 Computer Science, BA1 Mathematics, and BA2 Physics",
+            "place": "UMONS",
+            "summary": "Gave courses to students retaking an exam.",
+            "date": "August 2016"
         }
     ],
     "events": [
@@ -179,6 +190,16 @@
                     "place": "Online"
                 }
             ]
+        },
+        {
+            "date": "2019",
+            "list": [
+                {
+                    "name": "Workshop - Theory and Algorithms in Graph and Stochastic Games",
+                    "link": "http://math.umons.ac.be/gamenet2019/",
+                    "place": "UMONS, Belgium"
+                }
+            ]
         }
     ],
     "talks": [
@@ -187,11 +208,22 @@
             "list": [
                 {
                     "talk": "Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting",
-                    "name": "29th ACM Internal Conference Conference on Information and Knowledge Management (CIKM)",
+                    "name": "[29th ACM Internal Conference Conference on Information and Knowledge Management (CIKM)](https://www.cikm2020.org/)",
                     "date": "22th October 2020",
                     "place": "Online"
                 }
             ]
+        }
+    ],
+    "misc": [
+        {
+            "name": "Programming contests",
+            "summary": "I won the 454th place (out of 5558) in University CodeSprint, and my team won the 43d place in BAPC."
+        },
+        {
+            "webIgnore": true,
+            "name": "Driving",
+            "summary": "License B"
         }
     ]
 }
