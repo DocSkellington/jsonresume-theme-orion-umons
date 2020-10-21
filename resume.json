@@ -119,9 +119,11 @@
             {
                 "title": "Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting",
                 "authors": "Aziz Amezian El Khalfioui, Jonathan Joertz, Dorian Labeeuw, Gaëtan Staquet and Jef Wijsen",
-                "conference": "CIKM 2020",
+                "conference": "29th ACM International Conference on Information and Knowledge Management (CIKM)",
                 "pubYear": "2020",
-                "ref": "KJLSW20"
+                "ref": "KJLSW20",
+                "url": "https://dl.acm.org/doi/10.1145/3340531.3411911",
+                "comment": "ACM Digital Library"
             }
         ]
     },
