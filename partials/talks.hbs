@@ -8,7 +8,7 @@
           <ol>
           {{#each list}}
               <li><i>{{talk}}</i>, {{#markdown}}{{name}}{{/markdown}}, {{date}},
-              {{place}}{{#if slides}} (<a href="resources/slides/{{slides}}">slides</a>){{/if}}{{#if poster}} (<a href="resources/poster/{{poster}}">poster</a>){{/if}}.</li>
+              {{place}}{{#if slides}} (<a href="resources/slides/{{slides}}">slides</a>){{/if}}{{#if video}} (<a href={{video}}>video</a>){{/if}}{{#if poster}} (<a href="resources/poster/{{poster}}">poster</a>){{/if}}.</li>
           {{/each}}
           </ol>
         </li>

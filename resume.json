@@ -217,7 +217,9 @@
                     "talk": "Optimization of Answer Set Programs for Consistent Query Answering by Means of First-Order Rewriting",
                     "name": "[29th ACM Internal Conference Conference on Information and Knowledge Management (CIKM)](https://www.cikm2020.org/)",
                     "date": "22th October 2020",
-                    "place": "Online"
+                    "place": "Online",
+                    "video": "https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3340531.3411911&file=3340531.3411911.mp4&download=true",
+                    "slides": "OptimizationOfAnswerSetProgramsForConsistentQueryAnsweringByMeansOfFirstOrderRewriting_slides.pdf"
                 }
             ]
         }
