@@ -7,3 +7,5 @@ resume.pdf
 .idea/
 
 .vscode/
+
+package-lock.json
