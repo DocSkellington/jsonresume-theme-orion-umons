@@ -4,11 +4,11 @@
         <ul  style="list-style-type:disc">
         {{#each resume.talks}}
         <li>
-          <b>{{date}}</b>:
+          <b>{{year}}</b>:
           <ol>
           {{#each list}}
               <li><i>{{talk}}</i>, {{#markdown}}{{name}}{{/markdown}}, {{date}},
-              {{place}}{{#if slides}} (<a href="resources/slides/{{slides}}">slides</a>){{/if}}{{#if video}} (<a href={{video}}>video</a>){{/if}}{{#if poster}} (<a href="resources/poster/{{poster}}">poster</a>){{/if}}.</li>
+              {{place}}{{#if slides}} (<a href="resources/talks/{{yearOf date}}/{{slides}}">slides</a>){{/if}}{{#if handout}} (<a href="resources/handouts/{{yearOf date}}/{{handout}}">handout</a>){{/if}}{{#if video}} (<a href={{video}}>video</a>){{/if}}{{#if poster}} (<a href="resources/poster/{{yearOf date}}/{{poster}}">poster</a>){{/if}}.</li>
           {{/each}}
           </ol>
         </li>

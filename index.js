@@ -22,7 +22,7 @@ Handlebars.registerHelper('toLowerCase', function(str) {
 	return str.toLowerCase();
 });
 
-Handlebars.registerHelper('monthYear', function(str) {
+Handlebars.registerHelper('monthYearOf', function(str) {
 	if (str) {
 		var d = new Date(str);
 		return d.toLocaleString("default", { month: "short", year: "numeric" });
@@ -31,7 +31,7 @@ Handlebars.registerHelper('monthYear', function(str) {
 	}
 });
 
-Handlebars.registerHelper('year', function(str) {
+Handlebars.registerHelper('yearOf', function(str) {
 	if (str) {
 		var d = new Date(str);
 		return d.getFullYear();

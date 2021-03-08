@@ -6,9 +6,9 @@
                 <h4 class="degree">{{award studyType}} in {{area}}</h4>
                 <h5 class="meta">{{institution}}{{#if location}}, {{location}}{{/if}}</h5>
                 {{#if date}}
-                    <div class="time">{{year date}}</div>
+                    <div class="time">{{yearOf date}}</div>
                 {{else}}
-                    <div class="time">{{year startDate}} - {{year endDate}}</div>
+                    <div class="time">{{yearOf startDate}} - {{yearOf endDate}}</div>
                 {{/if}}
             </div><!--//item-->
         {{/resume.education}}

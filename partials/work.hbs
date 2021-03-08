@@ -7,9 +7,9 @@
                     <div class="upper-row">
                         <h3 class="job-title">{{position}}</h3>
                         {{#if date}}
-                          <div class="time">{{monthYear date}}</div>
+                          <div class="time">{{monthYearOf date}}</div>
                         {{else}}
-                          <div class="time">{{monthYear startDate}} - {{monthYear endDate}}</div>
+                          <div class="time">{{monthYearOf startDate}} - {{monthYearOf endDate}}</div>
                         {{/if}}
                     </div><!--//upper-row-->
                     <div class="company">{{#if url}}<a href="{{url}}" target="_blank">{{/if}}{{name}}{{#if location}}, {{location}}{{/if}}{{#if url}}</a>{{/if}}</div>
